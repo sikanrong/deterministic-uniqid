@@ -1,21 +1,18 @@
 {
   "name": "deterministic-uniqid",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Alexander Pilafian <sikanrong@gmail.com>",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
-
   "scripts": {
     "build": "babel esm --out-dir cjs",
     "prepublish": "npm run build",
     "install": "npm run build",
     "test": "ava --tap test.js"
   },
-
   "dependencies": {
     "random-seed": "^0.3.0"
   },
-
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "ava": "^0.21.0",
@@ -24,7 +21,6 @@
     "babel-register": "^6.24.1",
     "tap-nyan": "^1.1.0"
   },
-
   "babel": {
     "presets": [
       [
@@ -37,7 +33,6 @@
       ]
     ]
   },
-
   "ava": {
     "require": [
       "babel-register"
