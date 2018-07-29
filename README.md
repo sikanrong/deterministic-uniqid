@@ -1,0 +1,1 @@
+Just a simple package to generate deterministic pseudo-random alphanumeric unique IDs based on a given seed value.
