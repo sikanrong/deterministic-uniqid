@@ -1,6 +1,6 @@
 {
   "name": "@windfish-studio/deterministic-uniqid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Alexander Pilafian <sikanrong@gmail.com>",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
