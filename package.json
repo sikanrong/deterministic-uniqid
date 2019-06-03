@@ -1,5 +1,5 @@
 {
-  "name": "deterministic-uniqid",
+  "name": "@windfish-studio/deterministic-uniqid",
   "version": "0.0.0",
   "author": "Alexander Pilafian <sikanrong@gmail.com>",
   "main": "./cjs/index.js",
